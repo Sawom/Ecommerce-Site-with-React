@@ -1,0 +1,15 @@
+.shop{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left: 40px;
+}
+.product{
+    border-right: 3px solid lightgrey;
+    margin-right: 10px;
+}
+.posin{
+    text-align: center;
+}
+.posin input{
+    width: 60%;
+}

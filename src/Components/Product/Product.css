@@ -1,0 +1,13 @@
+.pos{
+    display: flex;
+    border-bottom: 3px solid lightgray;
+    margin-right: 15px;
+}
+.btn{
+    background-color: darkblue;
+    color: white;
+    height: 40px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    cursor: pointer;
+}
