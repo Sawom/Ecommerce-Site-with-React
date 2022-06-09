@@ -7,7 +7,15 @@
     background-color: darkblue;
     color: white;
     height: 40px;
+    padding: 10px;
     border: 1px solid lightgrey;
     border-radius: 10px;
     cursor: pointer;
+}
+.nam{
+    color: #222AA0;
+    font-weight: 600;
+}
+.imgst{
+    margin-right: 15px;
 }

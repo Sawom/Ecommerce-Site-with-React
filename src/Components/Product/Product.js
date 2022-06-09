@@ -8,11 +8,11 @@ const Product = (props) => {
     const element = <FontAwesomeIcon icon={faShoppingCart} />
     return (
         <div className='pos' >
-            <div>
+            <div className='imgst' >
                 <img src={img} alt="" />
             </div>
             <div>
-                <h3>{name}</h3>
+                <h3 className='nam' >{name}</h3>
                 <h3>Price: $ {price} </h3>
                 <h3> by: {seller} </h3>
                 <h3>Only {stock} remain </h3>

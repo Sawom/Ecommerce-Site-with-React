@@ -11,12 +11,12 @@ const Cart = (props) => {
     const grand = total+tax+delivery;
     return (
         <div>
-            <h2> <u> Order Summary </u> </h2>
+            <h2 className='nam' > <u> Order Summary </u> </h2>
             <h3>Selected Product: {props.cart.length} </h3>
-            <h3>Product Price: {total} </h3>
-            <h3>Tax: {tax} </h3>
-            <h3>Delivery Charge: {delivery} </h3>
-            <h3>Grand Total: {grand} </h3>
+            <h3>Product Price: $ {total} </h3>
+            <h3>Tax (2%): $ {tax} </h3>
+            <h3>Delivery Charge (5%): $ {delivery} </h3>
+            <h3>Grand Total: $ {grand} </h3>
         </div>
     );
 };

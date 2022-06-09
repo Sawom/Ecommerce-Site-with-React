@@ -20,6 +20,7 @@ const Shop = () => {
         const newcart = [...cart,product];
         setCart(newcart);
     }
+    // search 
     const handlesearch = (event) =>{
         const search = event.target.value;
         const matched = products.filter((product)=> product.name.toLowerCase()
